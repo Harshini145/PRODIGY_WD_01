@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Halide — Film Darkroom Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Task1.css">
+</head>
+<body>
+
+<nav id="navbar" class="navbar">
+  <div class="nav-inner">
+    <a href="#top" class="nav-brand">
+      <span class="brand-mark"></span>
+      Halide
+    </a>
+
+    <button id="navToggle" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#process" data-label="01">Process</a></li>
+      <li><a href="#services" data-label="02">Services</a></li>
+      <li><a href="#gallery" data-label="03">Gallery</a></li>
+      <li><a href="#contact" data-label="04">Contact</a></li>
+    </ul>
+  </div>
+  <div class="nav-glow"></div>
+</nav>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-grain"></div>
+    <h1 class="hero-title">
+      We develop<br>
+      what light<br>
+      <em>leaves behind.</em>
+    </h1>
+    <p class="hero-sub">
+      A hand-run darkroom lab for 35mm, medium format, and large format film.
+      Every roll processed by hand, one tank at a time, under the red light.
+    </p>
+    <a href="#contact" class="hero-cta">Drop off a roll →</a>
+  </section>
+
+  <section id="process" class="process">
+    <p class="section-eyebrow">The process</p>
+    <h2 class="section-title">From cassette to contact sheet</h2>
+
+    <div class="steps">
+      <div class="step">
+        <span class="step-index">01</span>
+        <h3>Load</h3>
+        <p>Your roll is loaded onto a reel in total darkness, by feel alone.</p>
+      </div>
+      <div class="step">
+        <span class="step-index">02</span>
+        <h3>Develop</h3>
+        <p>Chemistry is mixed fresh and held at temperature to the tenth of a degree.</p>
+      </div>
+      <div class="step">
+        <span class="step-index">03</span>
+        <h3>Fix &amp; wash</h3>
+        <p>The image is fixed permanent, then washed until every trace of chemistry is gone.</p>
+      </div>
+      <div class="step">
+        <span class="step-index">04</span>
+        <h3>Scan</h3>
+        <p>Negatives are dried, sleeved, and scanned at a resolution worth printing.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <p class="section-eyebrow">Services</p>
+    <h2 class="section-title">Pick your chemistry</h2>
+
+    <div class="service-grid">
+      <article class="service-card">
+        <h3>C-41 Color</h3>
+        <p>Standard color negative processing for 35mm and 120 format film.</p>
+        <span class="service-price">₹350 / roll</span>
+      </article>
+      <article class="service-card">
+        <h3>B&amp;W Hand Process</h3>
+        <p>Small-batch black and white developing in your choice of developer.</p>
+        <span class="service-price">₹400 / roll</span>
+      </article>
+      <article class="service-card">
+        <h3>E-6 Slide</h3>
+        <p>Color reversal processing for slide film, developed in-house.</p>
+        <span class="service-price">₹600 / roll</span>
+      </article>
+      <article class="service-card">
+        <h3>Push / Pull</h3>
+        <p>Push or pull up to 2 stops for underexposed or overexposed rolls.</p>
+        <span class="service-price">+₹150</span>
+      </article>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <p class="section-eyebrow">Gallery</p>
+    <h2 class="section-title">Straight off the reel</h2>
+    <div class="gallery-grid">
+      <div class="gallery-frame gallery-frame--tall">
+        <img src="https://picsum.photos/seed/halide1/500/700" alt="Film photograph 1" loading="lazy">
+      </div>
+      <div class="gallery-frame">
+        <img src="https://picsum.photos/seed/halide2/500/560" alt="Film photograph 2" loading="lazy">
+      </div>
+      <div class="gallery-frame">
+        <img src="https://picsum.photos/seed/halide3/500/560" alt="Film photograph 3" loading="lazy">
+      </div>
+      <div class="gallery-frame gallery-frame--tall">
+        <img src="https://picsum.photos/seed/halide4/500/700" alt="Film photograph 4" loading="lazy">
+      </div>
+      <div class="gallery-frame">
+        <img src="https://picsum.photos/seed/halide5/500/560" alt="Film photograph 5" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <p class="section-eyebrow">Contact</p>
+    <h2 class="section-title">Bring us your rolls</h2>
+    <p class="contact-text">
+      Open Tuesday to Sunday, 11am – 7pm. Walk-ins welcome, or drop us a line
+      before you come by.
+    </p>
+    <a href="mailto:hello@halidelab.example" class="contact-email">hello@halidelab.example</a>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>© 2026 Halide Darkroom Lab</span>
+  <span>Processed by hand, under the red light.</span>
+</footer>
+
+<script src="Task1.js"></script>
+</body>
+</html>
